@@ -150,3 +150,8 @@ git push
    - ✅ One showing the passing test output in your terminal  
    - ✅ One showing the green check mark in your GitHub repo after pushing  
 5. Submit both your GitHub repository link and the screenshots through Canvas
+
+--
+## Code citations
+
+ 1. Used ChatGPT to generate sort and print/join logic for show_breeds() method

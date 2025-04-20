@@ -85,11 +85,15 @@ def get_random_sub_breed_image(breed, sub_breed):
         return data
     pass
 
+#Join and print logic generated using ChatGPT (Sorry, still learning data structure manipulation)
 def show_breeds(breeds_dict):
     """Prints all available breeds 5 per line."""
     # TODO: Print all breeds (sorted), 5 per line
-    for breed in breeds_dict:
-        print(breed)
+    breeds = sorted(breeds_dict.keys())
+
+    # Loop through the breeds and print 5 per line
+    for i in range(0, len(breeds), 5):
+        print(' '.join(breeds[i:i+5]))
     pass
 
 def main():
